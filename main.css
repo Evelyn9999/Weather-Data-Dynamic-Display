@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, darkslateblue,steelblue, #3a7bd5,lightskyblue,steelblue,darkslateblue);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 1em;
+    width: 180px;
+    height: 400px;
+}
+
+.info-image {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-top: 1em;
+}
+
+
+button {
+    margin: 0 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#content {
+    width: 90%;
+}
+
+/* Set the size of the drop-down box */
+select {
+    width: 20%;
+    height: 30px;
+    color: black;
+    background-image: linear-gradient(to right, lightskyblue, steelblue, darkslateblue);
+}
+
+/* Set the font size of the table content (excluding the header) */
+table td {
+    font-size: 80%;
+}
+
+/* Set the text size on the horizontal axis below the image */
+.chartjs-x-axis-label {
+    font-size: 80%;
+}
+
+/* styles for the comment form and textarea */
+#commentForm {
+    margin-top: 1em;
+}
+
+#commentBox {
+    width: 60%;
+    resize: none;
+}
+
+.table-chart-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.scaled-pie-chart {
+    transform-origin: top left;
+    transform: scale(0.3);
+    display: inline-block;
+}
+
+.chartjs-render-monitor {
+    display: inline-block;
+    position: relative;
+}
+
+
+/* button colors */
+.button1 {
+    background-color: darkslateblue;
+    color: lightgrey;
+    margin: 0 1em;
+    border: none;
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+.button2 {
+    background-color: steelblue;
+    color: lightgray;
+    margin: 0 1em;
+    border: none;
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+.button3 {
+    background-color: lightsteelblue;
+    color: darkslateblue;
+    margin: 0 1em;
+    border: none;
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+.button4 {
+    background-color: lightgrey;
+    color: darkslateblue;
+    margin: 0 1em;
+    border: none;
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+.button5 {
+    background-color: lightblue;
+    color: black;
+    margin: 0 1em;
+    border: none;
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+/* table header and border colors */
+.view1-table th {
+    background-color: darkslateblue;
+    color: #f2f2f2;
+}
+
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.view1-table {
+    border: 2px solid darkslateblue;
+    width: 45%;
+}
+
+.view2-table th {
+    background-color: steelblue;
+    color: white;
+}
+
+.view2-table {
+    border: 2px solid steelblue;
+}
+
+.view3-table th {
+    background-color: lightsteelblue;
+    color: white;
+}
+
+.view3-table {
+    border: 2px solid lightsteelblue;
+}
+.view5-table th {
+    background-color: lightblue;
+    color: black;
+}
+
+.view5-table {
+    border: 2px solid lightblue;
+}
+
